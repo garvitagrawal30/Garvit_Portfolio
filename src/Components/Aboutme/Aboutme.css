@@ -1,0 +1,90 @@
+.aboutme{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height:105vh;
+    text-align: center;
+    margin-top: 0.5rem;
+    
+   
+}
+.heading{
+    display:flex;
+    position: relative;
+    flex:1;
+    flex-direction: column;
+    top: 3vh;
+    margin-top: -4.5rem;
+    transform: scale(01);
+    
+    
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text>:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--black);
+    text-align: center;
+    
+    
+
+}
+.text>:nth-child(2){
+    font-size:18px;
+    font-weight: bold;
+    color: var(--black);
+    text-align: center;
+    
+    
+}
+.image{
+    transform: scale(0.8);
+    text-align: center;
+}
+.s-button{
+    width: 6rem;
+    align-items: center;
+    margin-left: 23.6rem;
+    
+    
+}
+.cards{
+    position: relative;
+    margin-top: 1rem;
+}
+.cards>*{
+    position: absolute;
+}
+
+@media screen and (max-width: 480px){
+    .aboutme{
+        transform: scale(01);
+        margin-left: -3.5rem;
+        margin-top: -16rem;
+        flex-direction: column;
+        
+    }
+    .heading{
+        margin-top: -5.5rem;
+    }
+    .cards>*{
+
+        display: none;
+        
+    }
+    .s-button{
+       transform: scale(1);
+       margin-left: 3.5rem;
+       
+       
+
+    }
+    .a-blur{
+        display: none;
+    }
+}

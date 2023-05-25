@@ -1,0 +1,32 @@
+.card{
+    width: 21.5rem;
+    height: 11rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    
+    text-align: center;
+    border-right: 4px solid var(--orangeCard);
+    z-index: -3;
+    
+    
+    
+}
+.card>:nth-child(1){
+    transform: scale(0.7);
+    margin-bottom: -1rem;
+    margin-top: -0rem;
+}
+.card>:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card>:nth-child(3){
+    color: var(--gray);
+}
+
+
+
+

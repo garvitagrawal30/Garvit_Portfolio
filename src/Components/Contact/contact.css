@@ -1,0 +1,232 @@
+.contact{
+    height: 101vh;
+    position: absolute;
+}
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.contactme>*:nth-child(1){
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 12vh;
+    
+    
+    
+}
+.contactme>*:nth-child(2){
+    color: var(--gray);
+}
+.c-left{
+    background: rgba(105, 233, 233, 0.233);
+    height: 20rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    border: 4px solid var(--orangeCard);
+    
+
+}
+.c-left>*:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 1rem;
+    
+}
+.c-left>*:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+    text-align: center;
+    
+}
+.c-left>*:nth-child(3){
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    
+    
+    
+}
+.c-left>*:nth-child(4){
+    
+    margin-left: -13.5rem;
+    
+    transform: scale(0.025);
+    margin-top: -24.7rem;
+    
+    
+}
+.c-left>*:nth-child(5){
+    transform: scale(0.1);
+    margin-left: -13.5rem;
+    margin-top: -31.37rem;
+    
+    
+    
+}
+.icon{
+    transform: scale(0.3);
+    display: flex;
+    flex-direction: row;
+    margin-top: -8rem;
+    gap: 3rem;
+    
+
+
+}
+.c-right{
+    margin-top: -19.6rem;
+    margin-left: 30rem;
+    height: 20rem;
+    width: 30rem;
+    
+    
+    gap: 2rem;
+}
+.c-right>form{
+    width: 30rem;
+    gap: 2rem;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    height: 4rem;
+    outline: none;
+    
+    
+}
+.form1{   
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+.c-right .user1{
+    height: 2rem;
+    border: none;
+    width: 14rem;
+    border-bottom: 3px solid var(--orangeCard);
+    outline: none;
+}
+.form2{   
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.c-right .user2{
+    height: 2rem;
+    border: none;
+    width: 14rem;
+    border-bottom: 3px solid var(--orangeCard);
+    outline: none;
+}
+.form3{   
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.c-right .user3{
+    height: 3.5rem!important;
+    border: none;
+    width: 30rem;
+    border-bottom: 3px solid var(--orangeCard);
+    outline: none;
+    
+}
+
+.c-right .button{
+    margin-left: 10rem;
+    width: 10rem;
+}
+.c-right>*:nth-child(1){
+    margin-left: 0.2rem;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.c-right>*:nth-child(2){
+    margin-left: 12.5rem;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.c-right>*:nth-child(3){
+    margin-left: -19.4rem;
+    font-weight: bold;
+    font-size: 15px;
+    top: 4.4rem;
+    position: relative;
+
+}
+.c-right>*:nth-child(4){
+    margin-left: 14.1rem;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    top: 4.4rem;
+
+}
+.c-right>*:nth-child(5){
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: -18rem;
+    top: 8.3rem;
+
+}
+.c-right .blur{
+    margin-top: 11rem;
+    top: 5rem;
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    .contact{
+        margin-top: -6.5rem;
+        margin-left: -0.5rem;
+    }
+    .contactme{
+        flex-direction: column;
+        transform: scale(01);
+        margin-top: -2.5rem;
+       
+    }
+    .contactme>*:nth-child(1){
+        margin-left: -2rem;
+    }
+    .contactme>*:nth-child(2){
+        margin-left: 1.2rem;
+        width: 12rem;
+
+    }
+    .c-left{
+        transform: scale(0.8);
+        margin-left: -2.05rem;
+        margin-top: -0.3rem;
+    }
+    .c-right{
+        transform: scale(0.49);
+        position: absolute;
+        left: -37.9rem;
+        top: 40rem;
+    }
+    .c-right .blur{
+        display: none;
+    }
+}
+    
+
+
+
+
